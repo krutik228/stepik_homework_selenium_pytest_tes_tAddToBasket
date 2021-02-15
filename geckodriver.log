@@ -1,0 +1,25 @@
+1613380338132	geckodriver	INFO	Listening on 127.0.0.1:57781
+1613384982360	geckodriver	INFO	Listening on 127.0.0.1:65239
+1613384985396	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\nikkr\\AppData\\Local\\Temp\\rust_mozprofileCiFrsm"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1613384988204	Marionette	INFO	Listening on port 65251
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1613384988617	Marionette	WARN	TLS certificate errors will be ignored for this session
+1613384988632	Marionette	ERROR	[15] No reply from Marionette:Register
+JavaScript error: http://selenium1py.pythonanywhere.com/en-gb/catalogue/coders-at-work_207/, line 614: ReferenceError: oscar is not defined
+1613384996517	Marionette	INFO	Stopped listening on port 65251
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1613385006543	geckodriver	INFO	Listening on 127.0.0.1:65356
+1613385009582	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\nikkr\\AppData\\Local\\Temp\\rust_mozprofilenjKW6g"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1613385012312	Marionette	INFO	Listening on port 65368
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1613385012819	Marionette	WARN	TLS certificate errors will be ignored for this session
+1613385012838	Marionette	ERROR	[15] No reply from Marionette:Register
+JavaScript error: http://selenium1py.pythonanywhere.com/fr/catalogue/coders-at-work_207/, line 614: ReferenceError: oscar is not defined
+1613385019878	Marionette	INFO	Stopped listening on port 65368
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
