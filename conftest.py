@@ -10,14 +10,14 @@ def pytest_addoption(parser):
     parser.addoption('--language', action='store', default=None,
                      help="Choose language:ru, eng, fr, gb...")
     #  Добавление выбора браузера при запуске тестов
-    parser.addoption('--browser_name', action='store', default=None,
+    parser.addoption('--browser', action='store', default=None,
                      help="Choose browser:chrome or firefox")
 
 
 #  Фикстура запуска браузера
 @pytest.fixture(scope="function")
 def browser(request):
-    browser_name = request.config.getoption('browser_name')
+    browser_name = request.config.getoption('browser')
     user_language = request.config.getoption('language')
     browser = None
 
