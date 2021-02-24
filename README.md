@@ -1,1 +1,1 @@
-direc to branch master
+direct to branch master
